@@ -9,14 +9,22 @@
 	</head>
 	<body>
 		<header>
-			<img src="./Images_nécessaires/Logo.png" alt="Notre logo.">
+      <img src="./Images_nécessaires/Logo.png" alt="Notre logo.">
 			<h1> ☆ Au bon bébé ! ☆ </h1>
 			<p>Là où toute peluche conviendra à votre bébé !</p>
+      <div id="Connexion">
+        <form  method="get" action="/PageConnexion">
+          <input placeholder="identifiant">
+          <input type="password" placeholder="mot de passe">
+          <button type="submit">Connexion</button>
+          <a href="PageSinscrire">S'inscrire</a>
+        </form>
+      </div>
 			<nav>
 				<ul>
-					<li><a href="#">Connexion</a></li>
-					<li><a href="#">Inscription</a></li>
-					<li><a href="#">Mon Panier</a></li>
+					<li><a href="#">Peluche Garçon</a></li>
+					<li><a href="#">Peluche Fille</a></li>
+					<li><a href="/PagePanier">Mon Panier</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -24,7 +32,7 @@
 		<section id="MenuNav">
 			<aside>
 				<nav>
-					<h4>Aller à ...</h6>
+					<h4>Aller à ...</h4>
 					<select>
 						<option><a href="">Votre panier</a></option>
 						<option><a href="">Catalogue</a></option>
@@ -42,7 +50,7 @@
 				<ul>
 					<li><a href="https://www.service-public.fr/particuliers/vosdroits/N133">Service d'adoption</a></li>
 					<li><a href="http://www.ebay.fr/">eBay</a></li>
-				</ul>				
+				</ul>
 			</aside>
 		</section>
 		<section id="Articles">

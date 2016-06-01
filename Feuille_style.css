@@ -5,17 +5,26 @@ body
 }
 header
 {
-	background-color:#56739A;
-	opacity:0.90;
+	background-color:rgba(86, 115, 154, 0.9);
 	margin:0%;
 	position:top fixed;
 	border:1px dashed white;
 	border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
+#Connexion
+{
+	float:right;
+	top:10px;
+	position:absolute;
+	right: 10px;
+
+}
+
 header img
 {
-	opacity:1;
+	opacity:1 !important;
 	margin-left:3%;
 	width:12%;
 	height:12%;
@@ -86,7 +95,7 @@ a
 	opacity:0.85;
 	position:absolute;
 	width:60%;
-	
+
 }
 footer
 {
