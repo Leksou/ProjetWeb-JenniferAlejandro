@@ -32,6 +32,13 @@ header img
 	float:left;
 }
 
+#Articles img
+{
+	opacity: 1;
+	width: 80%;
+	height: 80%;
+}
+
 header h1
 {
 	padding-top:2%;
@@ -61,7 +68,6 @@ header a
 		bottom:6%;
 		left:7.5%;
 	background-color:rgba(204,204,205,0.9);
-	opacity:0.85;
 	margin-left:2%;
 	width:20%;
 }
@@ -71,10 +77,10 @@ header a
 		top:32%;
 		bottom:6%;
 		right:10%;
-	background-color:#DFF2FF;
-	opacity:0.85;
+	background-color:rgba(223, 242, 255, 0.9);
 	position:absolute;
 	width:60%;
+	text-align: center;
 
 }
 footer
@@ -93,7 +99,12 @@ footer p
 	margin-top:0.50%;
 }
 
-td button 
+td button
 {
 	text-align:center;
+}
+
+th span
+{
+    text-decoration: line-through;
 }
