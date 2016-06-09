@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet"  type="text/css" href="Feuille_style.css">
+		<title> ☆ Au bon bébé ! ☆</title>
+		<link rel="icon" type="image/ico" href="Images_nécessaires/Favicon.ico">
+		<meta name="Site de vente de peluche en ligne" content="...">
+	</head>
+	<body>
+		<header>
+      <img src="./Images_nécessaires/Logo.png" alt="Notre logo.">
+			<h1> ☆ Au bon bébé ! ☆ </h1>
+			<p>Là où toute peluche conviendra à votre bébé !</p>
+      <div id="Connexion">
+        <form  method="get" action="./Connexion.html">
+          <input placeholder="identifiant">
+          <input type="password" placeholder="mot de passe">
+          <button type="submit">Connexion</button>
+          <a href="./Inscription.html">S'inscrire</a>
+        </form>
+      </div>
