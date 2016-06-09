@@ -3,6 +3,7 @@ body
 	background-image:url(./Images_Nécessaires/Fond.jpg);
 	margin:0%;
 }
+
 header
 {
 	background-color:rgba(86, 115, 154, 0.9);
@@ -30,45 +31,24 @@ header img
 	height:12%;
 	float:left;
 }
+
 header h1
 {
 	padding-top:2%;
 	margin-top:0px;
 	color:white;
 }
+
 header p
 {
 	padding-bottom:3%;
 	color:white;
 }
-nav li
-{
-    border-top: 1px dotted white;
-    border-left: 1px dotted white;
-    border-right: 1px dotted white;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding: 1% 2% 0% 2%;
-}
-header nav
-{
-    text-align: right;
-    margin-right: 50px;
-}
-header nav ul
-{
-	margin-bottom:0%;
-}
-header nav ul li
-{
-    display: inline;
-    color: white;
-	padding-top:0.5%;
-	padding-bottom:0.5%;
-}
-a
+
+header a
 {
     color: white;
+	text-align:right;
 }
 .generale
 {
@@ -80,7 +60,7 @@ a
 		top:32%;
 		bottom:6%;
 		left:7.5%;
-	background-color:#CCCCFF;
+	background-color:rgba(204,204,205,0.9);
 	opacity:0.85;
 	margin-left:2%;
 	width:20%;
@@ -111,4 +91,9 @@ footer
 footer p
 {
 	margin-top:0.50%;
+}
+
+td button 
+{
+	text-align:center;
 }
