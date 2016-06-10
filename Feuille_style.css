@@ -111,18 +111,7 @@ th span
 
 .Images th
 {
-	border-bottom: 1px solid;
-}
-
-.Price th, .Name th
-{
-	border-left: 1px solid;
-	border-right: 1px solid;
-}
-
-.Price th
-{
-	border-bottom: 1px solid;
+	border: 1px solid;
 }
 
 .AutreProduit
@@ -143,15 +132,36 @@ th span
 	border-collapse: collapse;
 	border: 1px solid;
 	background: rgba(255,255, 255, 0.9);
-	margin: 0% 0% 0% 35%;
-}
-
-.Paiement
-{
-	margin: 0% 0% 0% 50%;
+	margin: 0% 0% 0% 32%;
 }
 
 button
 {
 	border-radius: 3px;
+}
+
+.Paiement
+{
+	border-radius: 3px;
+	background: rgb(86, 115, 154);
+	border: none;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	padding: 3px;
+	color: white;
+}
+
+#PagePanier
+{
+	background-color:rgba(223, 242, 255, 0.9);
+	text-align: center;
+	border-radius: 10px;
+	border: 1px dashed;
+	margin: 10px;
+}
+
+.Image img
+{
+  width: 50%;
+  height: auto;
 }
