@@ -66,8 +66,9 @@ header a
 	position:absolute;
 		top:32%;
 		bottom:6%;
-		left:7.5%;
+		left:5.5%;
 	background-color:rgba(204,204,205,0.9);
+	padding: 1%;
 	margin-left:2%;
 	width:20%;
 }
