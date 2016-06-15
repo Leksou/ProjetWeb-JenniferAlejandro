@@ -7,11 +7,12 @@ body
 header
 {
 	background-color:rgba(86, 115, 154, 0.9);
-	margin:0%;
-	position:top fixed;
+	/* margin:0% 0% 0% 0%; */
+	float:center;
 	border:1px dashed white;
 	border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	margin-bottom: 25px;
 }
 
 #Connexion
@@ -35,8 +36,6 @@ header img
 #Articles img
 {
 	opacity: 1;
-	width: 80%;
-	height: 80%;
 }
 
 header h1
@@ -57,32 +56,29 @@ header a
     color: white;
 	text-align:right;
 }
-.generale
-{
-	margin-top:1%;
-}
+
 #MenuNav
 {
-	position:absolute;
-		top:32%;
-		bottom:6%;
-		left:5.5%;
+	float:left;
 	background-color:rgba(204,204,205,0.9);
 	padding: 1%;
-	margin-left:2%;
+	/* margin:2% 60% 5% 5%; */
 	width:20%;
+	border-radius:5px;
+	margin-left: 20px;
+	border:1px dashed;
 }
 #Articles
 {
-	position:absolute;
-		top:32%;
-		bottom:6%;
-		right:10%;
+	float:right;
+	/* margin:2% 2% 2% 33%; */
 	background-color:rgba(223, 242, 255, 0.9);
-	position:absolute;
 	width:60%;
 	text-align: center;
-
+	border-radius:5px;
+	border:1px dashed;
+	margin-bottom: 10px;
+	margin-right: 20px;
 }
 footer
 {
@@ -153,15 +149,6 @@ button
 	color: white;
 }
 
-#PagePanier, #PageArticle
-{
-	background-color:rgba(223, 242, 255, 0.9);
-	text-align: center;
-	border-radius: 10px;
-	border: 1px dashed;
-	margin: 10px;
-}
-
 .Image img
 {
   width: auto;
@@ -179,6 +166,7 @@ button
 	border-radius: 10px;
 	border: 1px dashed;
 	margin: 10px;
+	clear:both;
 }
 
 .Other h2
