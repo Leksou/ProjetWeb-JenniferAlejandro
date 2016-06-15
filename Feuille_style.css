@@ -195,3 +195,61 @@ a
 	color:green;
 	font-size: 1.5em;
 }
+
+@media screen and (max-width: 1280px)
+{
+    header img
+	{
+		width: 20%;
+		height: auto;
+	}
+	.Image img
+	{
+		width: 35%;
+		height: auto;
+	}
+	#Articles img
+	{
+		width: 35%;
+		height: auto;
+	}
+	.Images th
+	{
+		width: 35%;
+		height: auto;
+	}
+	#Articles
+	{
+		width: 60%;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 600px)
+{
+    header img
+	{
+		width: 30%;
+		height: auto;
+	}
+	.Image img
+	{
+		width: 15%;
+		height: auto;
+	}
+	#Articles img
+	{
+		width: 15%;
+		height: auto;
+	}
+	.Images th
+	{
+		width: 15%;
+		height: auto;
+	}
+	#Articles
+	{
+		width: 30%;
+		height: auto;
+	}
+}

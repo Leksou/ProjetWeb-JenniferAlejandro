@@ -1,0 +1,8 @@
+Bonsoir,
+
+Voici donc notre version finale du site.
+Il n'est pas (encore) parfait, nous sommes conscient que certaines propriétés n'ont pas été utilisé de façon optimale.
+Nous avons commencé le responsive design mais n'avons pas eu le temps de le finir.
+
+Cordialement,
+Jennifer M. et Alejandro F.
