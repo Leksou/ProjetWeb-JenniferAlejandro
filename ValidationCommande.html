@@ -42,34 +42,28 @@
 			<aside>
 				<h4>Laissez un commentaire</h4>
 				<textarea placeholder="Laissez votre commentaire">Une remarque, un avis ? Vos retours nous intéresse.</textarea>
-				<button> Envoyer </button>
+				<button class="Paiement"> Envoyer </button>
 			</aside>
 		</section>
-		<section id="Articles">
-			<h1>Un anniversaire ? Un cadeau ? Venez profiter de nos promotions ! Une occasion à ne pas rater !</h1>
-			<p> Ici, les derniers arrivages, promotions, informations partenaires, etc... </p>
-			<article>
-				<table>
-						<tr>
-								<th><a href="PageArticle.html"><img src="./Images_nécessaires/Skitty.png" alt="Skitty"/></a></th>
-								<th><a href="PageArticle.html"><img src="./Images_nécessaires/Pikachu2.png" alt="Pikattaque"/></a></th>
-								<th><a href="PageArticle.html"><img src="./Images_nécessaires/Pikachu1.png" alt="Pikasourire"/></a></th>
-								<th><a href="PageArticle.html"><img src="./Images_nécessaires/Pikachu3.png" alt="Pikadraco"/></a></th>
-						</tr>
-						<tr>
-								<th><a href="PageArticle.html">-50% sur les peluches Skitty !</a></th>
-								<th><a href="PageArticle.html">-50% sur les peluches Pikachu Attaque !</a></th>
-								<th><a href="PageArticle.html">-50% sur les peluches Pikachu Sourire !</a></th>
-								<th><a href="PageArticle.html">-50% sur les peluches Pikachu Dracofeu !</a></th>
-						</tr>
-						<tr>
-								<th class="price"><span> 16€</span> 8€</th>
-								<th class="price"><span> 20€</span> 10€</th>
-								<th class="price"><span> 15€</span> 7,5€</th>
-								<th class="price"><span> 30€</span> 15€</th>
-						</tr>
-				</table>
-			</article>
+    <section id="Articles">
+			<form  method="get" action="CommandeEffectuee.html">
+			<table>
+				<th colspan=4><h1> Entrez une adresse de livraison <h1></th>
+				<tr><td rowspan=6><img src=Images_nécessaires/Logo.png></td>
+					<td><label for="nom">Nom :</td>
+					<td><input id="nom"></td>
+					<td rowspan=6><img src=Images_nécessaires/Logo.png></td></tr>
+				<tr><td><label for="prenom">Prénom :</td>
+					<td><input id="prenom"></td></tr>
+				<tr><td><label for="adresse">Adresse :</td>
+					<td><input id="adresse"></td></tr>
+				<tr><td><label for="ville">Ville:</td>
+					<td><input id="ville"></td></tr>
+        <tr><td><label for="cp">Code Postal :</td>
+					<td><input id="cp"></td></tr>
+				<tr><td colspan=2><button class="Paiement" type="submit">Valider</button></td></tr>
+			</table>
+		</section>
 		</section>
 		<footer>
 			<p> En cas de problème, contactez <a href="mailto:alejandro.fernandez@etu.univ-lyon1.fr">Mr FERNANDEZ</a> ou <a href="mailto:jennifer.martinez@etu.univ-lyon1.fr">Mme MARTINEZ</a></p>
