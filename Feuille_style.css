@@ -7,7 +7,6 @@ body
 header
 {
 	background-color:rgba(86, 115, 154, 0.9);
-	float:center;
 	border:1px dashed white;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
