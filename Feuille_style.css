@@ -7,7 +7,6 @@ body
 header
 {
 	background-color:rgba(86, 115, 154, 0.9);
-	/* margin:0% 0% 0% 0%; */
 	float:center;
 	border:1px dashed white;
 	border-bottom-left-radius: 10px;
@@ -62,7 +61,6 @@ header a
 	float:left;
 	background-color:rgba(204,204,205,0.9);
 	padding: 1%;
-	/* margin:2% 60% 5% 5%; */
 	width:20%;
 	border-radius:5px;
 	margin-left: 20px;
@@ -71,7 +69,6 @@ header a
 #Articles
 {
 	float:right;
-	/* margin:2% 2% 2% 33%; */
 	background-color:rgba(223, 242, 255, 0.9);
 	width:60%;
 	text-align: center;
